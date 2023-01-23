@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+/* Nav Bar */
+.log-in, .sign-up {
+  margin: 5px;
+  border-radius: 40px;
+}
+
+
+/* Middle Area */
+.middle-card {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.middle-pic-container {
+  width: 100%;
+  text-align: right;
+  background-color: #deedd6;
+}
+
+.middle-pic {
+  height: 250px;
+}
+
+.middle-title {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.middle-text {
+  text-align: left;
+  width: 650px;
+}
+
+/* Store Listing */
+.card-body{
+  height: 100px;
+}
+
+.row {
+  padding-bottom: 20px;
+}
+
+.logos {
+  width: 75px;
+  float: left;
+}
